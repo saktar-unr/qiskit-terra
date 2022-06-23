@@ -119,9 +119,7 @@ from qiskit.pulse.channels import (
 )
 from qiskit.pulse.configuration import (
     Discriminator,
-    Kernel,
-    LoConfig,
-    LoRange,
+    Kernel
 )
 from qiskit.pulse.exceptions import PulseError
 from qiskit.pulse.instruction_schedule_map import InstructionScheduleMap
