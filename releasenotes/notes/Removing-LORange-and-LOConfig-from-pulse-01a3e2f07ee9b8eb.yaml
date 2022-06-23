@@ -1,0 +1,8 @@
+---
+features:
+  - |
+    LORange and LOConfig classes from pulse modeule are not used anywhere. These
+    classes are removed/deprecated. Also the test cases for those are removed as 
+    they are also deprecated. Those classes (LORange and LOConfig) were imported
+    int the init function of pulse module but not used. So those import calls 
+    are also removed.
